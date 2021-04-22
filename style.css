@@ -1,0 +1,104 @@
+body {
+    font-size: 16px;
+    font-family: arial, sans-serif;
+}
+
+
+.navbar {
+    font-size: 0.875em;
+    margin-bottom: 0px;
+    padding-right: 15%;
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-bottom: 3%;
+    background-color: #EA8428;
+}
+
+.navbar-nav li a:hover {
+    background-color: transparent;
+}
+
+.navbar-brand {
+    font-size: 2.5em;
+    font-weight: bolder;
+    letter-spacing: -3px;
+
+}
+
+.flipsidebg {
+    background-color: #EA8428;
+}
+
+.flipsidebg h1 {
+    text-align: center;
+    padding-left: 10%;
+    color: #ffff;
+    width: 341px;
+    /* give the H1 a width so that we wrap the text as per the design comp*/
+    font-size: 7.125em;
+    /* 114px font size in photoshop divided by 16px= 7.125*/
+    letter-spacing: -5px;
+    /* fix the letter-spacing*/
+    font-weight: 800;
+    /* make the text bold*/
+    line-height: 80%;
+    /* decrease the line height*/
+    margin-top: 100px;
+    /* the words are 140px away from the navbar in photoshop*/
+    text-align: right;
+    padding-bottom: 10%; /* use a percentage so that we have a variable padding at the bottom – the children within the div should control the height of divs*/
+
+}
+
+.header-text {
+    padding-bottom: 4%;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #464646;
+    font-weight: bolder;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.btn-home1 {
+    border-radius: 0;
+    background-color:white;
+    border-color: #464646;
+    color: #464646;
+    font-weight: bolder;
+    border:3px solid;
+    padding: 10px;
+}
+
+.btn-home2 {
+    border-radius: 0;
+    background-color: #D55E0F;
+    border-color: white;
+    color: white;
+    font-weight: bolder;
+    border:3px solid;
+    padding: 10px;
+}
+
+.headerpara{
+    color: white;
+    background-color: #464646;
+    width: 300px;
+    padding-left: 4%;
+    padding-right:4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+    
+}
