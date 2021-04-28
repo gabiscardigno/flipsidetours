@@ -1,6 +1,15 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 body {
     font-size: 16px;
-    font-family: arial, sans-serif;
+    font-family: 'Azo Sans Light';
 }
 
 
@@ -16,6 +25,8 @@ body {
 
 .navbar-nav li a:hover {
     background-color: transparent;
+    font-family: 'Azo Sans';
+    font-weight: bolder;
 }
 
 .navbar-brand {
@@ -46,7 +57,8 @@ body {
     margin-top: 100px;
     /* the words are 140px away from the navbar in photoshop*/
     text-align: right;
-    padding-bottom: 10%; /* use a percentage so that we have a variable padding at the bottom – the children within the div should control the height of divs*/
+    padding-bottom: 10%;
+    /* use a percentage so that we have a variable padding at the bottom – the children within the div should control the height of divs*/
 
 }
 
@@ -73,11 +85,11 @@ a:hover {
 
 .btn-home1 {
     border-radius: 0;
-    background-color:white;
+    background-color: white;
     border-color: #464646;
     color: #464646;
     font-weight: bolder;
-    border:3px solid;
+    border: 3px solid;
     padding: 10px;
 }
 
@@ -87,18 +99,225 @@ a:hover {
     border-color: white;
     color: white;
     font-weight: bolder;
-    border:3px solid;
+    border: 3px solid;
     padding: 10px;
 }
 
-.headerpara{
+.btn-orange {
+    border-radius: 0;
+    background-color: white;
+    border-color: #D55E0F;
+    color: #D55E0F;
+    font-family: 'Azo Sans';
+    font-weight: bolder;
+    border: 3px solid;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.btn-tours {
+    border-radius: 0;
+    background-color: #CF4F11;
+    color: white;
+    font-family: 'Azo Sans';
+    font-weight: bolder;
+    border: 3px solid #D55E0F;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.btn-tours:hover {
+    color: #FFCFA3;
+}
+
+.headerpara {
     color: white;
     background-color: #464646;
     width: 300px;
     padding-left: 4%;
-    padding-right:4%;
+    padding-right: 4%;
     padding-top: 1%;
     padding-bottom: 1%;
-    
-    
+}
+
+.whybg {
+    background-image: url(images/why-bg.jpg);
+    background-size: cover;
+    padding-top: 200px;
+    padding-left: 50px;
+}
+
+.whyorange {
+    color: #DC4D25;
+    font-weight: bolder;
+    font-family: 'Azo Sans Light';
+}
+
+.whyheader {
+    font-family: "TELONE";
+    color: #D55E0F;
+    font-size: 71px;
+}
+
+/* .whytext {
+    padding-top: 50px;
+} */
+
+.janeimage {
+    padding-left: 80px;
+}
+
+.toursbg {
+    background-image: url(images/toursbg.jpg);
+    /* background-color: #EA8428; */
+    padding-bottom: 50px;
+}
+
+.tourheading {
+    font-family: 'TELONE';
+    font-size: 50px;
+    color: white;
+    padding-top: 137px;
+    padding-bottom: 10px;
+}
+
+.ghostly {
+    border: 3px solid;
+    border-color: #F1B278;
+}
+
+.ghostlytitle {
+    font-family: 'TELONE';
+    font-size: 42px;
+    color: white;
+}
+
+.ghostly-text {
+    color: white;
+}
+
+.ghostly-price {
+    font-size: 118px;
+    color: white;
+    font-family: 'Big Caslon';
+}
+
+.evening {
+    border: 3px solid;
+    border-top: none;
+    border-color: #F1B278;
+    color: white;
+}
+
+.eveningtitle {
+    font-family: 'TELONE';
+    font-size: 42px;
+    color: white;
+}
+
+.evening-text {
+    color: white;
+}
+
+.evening-price {
+    font-size: 118px;
+    color: white;
+    font-family: 'Big Caslon';
+}
+
+.market {
+    border: 3px solid;
+    border-top: none;
+    border-color: #F1B278;
+    color: white;
+}
+
+.markettitle {
+    font-family: 'TELONE';
+    font-size: 42px;
+    color: white;
+}
+
+.market-text {
+    color: white;
+}
+
+.market-price {
+    font-size: 118px;
+    color: white;
+    font-family: 'Big Caslon';
+}
+
+.explore1 {
+    color: #D55E0F;
+    transform: rotate(-4deg);
+}
+
+.explore2 {
+    font-family: 'TELONE';
+    color: #D55E0F;
+    transform: rotate(-4deg);
+}
+
+.instasec {
+    height: 400px;
+}
+
+.instatop {
+    padding-top: 55px;
+}
+
+.instatext h5 {
+    color: #D55E0F;
+    font-size: 45px;
+    font-family: 'Azo Sans';
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.instatext p {
+    color: #676767;
+    font-size: 12px;
+}
+
+.footer {
+    background-color: #EA8428;
+}
+
+.footerleft {
+    padding-top: 30px;
+}
+
+.footerlinks a {
+    color: white;
+    text-decoration: none;
+}
+
+.footerlinks2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer p {
+    color: white;
+}
+
+.footerlinks ul {
+    padding-left: 0px;
+}
+
+.footerlinks p {
+    font-size: 20px;
+    font-family: 'Azo Sans';
+    font-weight: bolder;
+    padding-top: 22px;
+}
+
+.footerlinks2 {
+    padding-top: 71px;
+}
+
+.address {
+    padding-top: 15px;
 }
