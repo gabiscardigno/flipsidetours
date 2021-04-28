@@ -6,11 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>FLipside Tours</title>
+    <title>FLIPSIDE TOURS</title>
+
+    <!-- add icon link -->
+    <link rel="icon" href="images/flipsidelogoicon.png" type="image/icontype">
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" /> 
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.adobe.com/fonts/azo-sans" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,7 +35,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><img src="images/Flipside%20Logo.png" width="40%"/></a>
+                    <a class="navbar-brand" href="#"><img src="images/Flipside%20Logo.png" alt="Flipside Logo" width="90"/></a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
@@ -49,81 +53,148 @@
         <div class="container header-text">
             <h1>Flipside Tours</h1>
             <div class="col-md-6 headerpara">
-            <p>Welcome to Flipside, where we provide safe, fun, and unforgettable experiences that creates memories and smiles that last a lifetime
-            </p>
-                 </div>
+                <p>Welcome to Flipside, where we provide safe, fun, and unforgettable experiences that creates memories and smiles that last a lifetime
+                </p>
+            </div>
             <div class="col-md-6">
-            <button type="button" class="btn-home1">LEARN MORE</button>
-            <button type="button" class="btn-home2">FIND THE TOUR FOR YOU</button>
+                <button type="button" class="btn-home1">LEARN MORE</button>
+                <button type="button" class="btn-home2">FIND THE TOUR FOR YOU</button>
             </div>
         </div> <!-- container -->
     </header>
 
-    <section class="container-fluid ">
-        <div class="container">
-            <h2> WHY FLIPSIDE </h2>
-            <p> Since our humble beginnings we’ve been leading tourists on tours of arty neighbourhoods, street art, food and ghosts throughout Fremantle. We understand the complexities in our communities, work to find our place in it, and utilize our team’s diversity to continuously shape the tours to best tell the story of Fremantle.</p>
-            <button type="button" class="btn btn-outline-danger">FIND THE TOUR FOR YOU</button>
-        </div><!-- container-->
-    </section>
-
-    <section class="container-fluid ">
-        <div class="container"><h3>OUR TOURS</h3>
-        </div>
-        <div class="container">
-            <h3> GHOSTLY TOURS </h3>
-            <p> An immersive, hands-on paranormal ghostly tour, where you’ll hunt for real ghosts in known haunted places around Fremantle.</p>
-            <p>$59</p>
-            <button type="button" class="btn btn-outline-danger">FIND OUT MORE</button>
-        </div><!-- container-->
-        <div class="container">
-            <h3> EVENING FOOD </h3>
-            <p> An exciting stroll through our beautiful city filled with delicious food and drinks that locals crave for in the late afternoon/early evening.</p>
-            <button type="button" class="btn btn-outline-danger">FIND THE TOUR FOR YOU</button>
-        </div><!-- container-->
-        <div class="container">
-            <h3> MARKET TOUR </h3>
-            <p> Explore and support the local traders and musicians down at the markets and immerse yourself in the diverse culture of Fremantle.</p>
-            <button type="button" class="btn btn-outline-danger">FIND THE TOUR FOR YOU</button>
-        </div><!-- container-->
-    </section>
-
-    <section class="container-fluid ">
-        <div class="container">
-            <h4> LIKE WHAT YOU SEE? BOOK NOW TO GET STARTED ON YOUR OWN </h4>
-            <h4>FREMANTLE FLIPSIDE JOURNEY</h4>
-            <div class="col-md-6">
-                <p>Image will go here</p>
+    <section class="container-fluid whybg">
+        <div class="row">
+            <div class="col-md-6 janeimage">
+                <img src="images/Jane_Bree_Founder.png" alt="Jane Bree, Founder of Flipside Tours in Fremantle" width=400>
             </div>
-            <div class="col-md-6">
-                <p>Image will go here</p>
+            <div class="container col-md-3 whytext">
+                <h2 class="whyheader"> WHY FLIPSIDE </h2>
+                <p> Since our humble beginnings we’ve been leading tourists on tours of arty neighbourhoods, street art, food and ghosts throughout Fremantle. We understand the complexities in our communities, work to find our place in it, and utilize our team’s diversity to continuously shape <span class=whyorange>the tours to best tell the story of Fremantle.</span></p>
+                <button type="button" class="btn-orange">FIND THE TOUR FOR YOU</button>
+            </div><!-- container-->
+        </div>
+    </section>
+
+    <section class="container-fluid toursbg">
+        <div class="container text-right">
+            <h3 class="tourheading">OUR TOURS</h3>
+        </div>
+        <div class="container ghostly">
+            <div class="container col-sm-3">
+                <img src=images/prisontour.jpg alt="Prison Tour" height=200>
+            </div>
+            <div class="container col-sm-6 ghostly-text">
+                <h3 class="ghostlytitle"> GHOSTLY TOURS </h3>
+                <p> An immersive, hands-on paranormal ghostly tour, where you’ll hunt for real ghosts in known haunted places around Fremantle.</p>
+                <button type="button" class="btn btn-tours">FIND OUT MORE</button>
+            </div>
+            <div class="container col-sm-3 ghostly-price">
+                <p> $59</p>
+            </div>
+        </div><!-- ghostly tours-->
+        <div class="container evening">
+            <div class="container col-sm-3 evening-image">
+                <img src=images/eveningfood.jpg alt="Prison Tour" height=200>
+            </div>
+            <div class="container col-sm-6 evening-text">
+                <h3 class="eveningtitle"> EVENING FOOD </h3>
+                <p> An exciting stroll through our beautiful city filled with delicious food and drinks that locals crave for in the late afternoon/early evening.</p>
+                <button type="button" class="btn btn-tours">FIND OUT MORE</button>
+            </div>
+            <div class="container col-sm-3 evening-price">
+                <p> $79</p>
+            </div>
+        </div><!-- evening food-->
+        <div class="container market">
+            <div class="container col-sm-3">
+                <img src=images/prisontour.jpg alt="Prison Tour" height=200>
+            </div>
+            <div class="container col-sm-6 market-text">
+                <h3 class="markettitle"> MARKET TOUR </h3>
+                <p> Explore and support the local traders and musicians down at the markets and immerse yourself in the culture of Fremantle. </p>
+                <button type="button" class="btn btn-tours">FIND OUT MORE</button>
+            </div>
+            <div class="container col-sm-3 market-price">
+                <p> $35</p>
+            </div>
+        </div><!-- ghostly tours-->
+    </section>
+
+    <section class="container-fluid ">
+        <div class="container">
+            <h5 class="explore1"> LIKE WHAT YOU SEE? BOOK NOW TO GET STARTED ON YOUR OWN </h5>
+            <h4 class="explore2">FREMANTLE FLIPSIDE JOURNEY</h4>
+            <div class="col-md-4">
+                <img src=images/explore1.png alt="Prison Tour" height="500">
+            </div>
+            <div class="col-md-4">
+                <img src=images/explore2.jpg alt="Prison Tour" height="500">
             </div>
             <button type="button" class="btn btn-outline-danger">BOOK NOW</button>
         </div><!-- container-->
     </section>
-    
-    <section class="container-fluid">
-    <div class="container">
-        <h5>@FLIPSIDE</h5>
-        <p>Find us on Instagram and get lost in the many photos available of the tours.</p>
+
+    <section class="container-fluid instasec">
+        <div class="container instatop">
+            <div class="col-md-2">
+                <img src="images/instalogo.png" alt="Instagram Logo" height="100">
+            </div>
+            <div class="container instatext">
+                <h5>@FLIPSIDE</h5>
+                <p>Find us on Instagram and get lost in the many photos available of the tours.</p>
+            </div>
         </div>
     </section>
-    
-    
-    <footer class="container-fluid"><!-- div for the main image to stretch s to the edge of the page-->
 
-    <div class="container"><!-- div to hold the content in the middle of the page-->
-        <div class="row"><!-- a row that gives us access to the BS columns-->
-            <div class="col-md-6 ">
-                <p>JOSH WHITKIN</p>
+
+    <footer class="container-fluid footer">
+        <!-- div for the main image to stretch s to the edge of the page-->
+
+        <div class="container">
+            <!-- div to hold the content in the middle of the page-->
+            <div class="row">
+                <!-- a row that gives us access to the BS columns-->
+                <div class="col-md-4 footerleft">
+                    <img src="images/Flipside%20Logo.png" alt="Flipside Logo" height="50">
+                    <p class="address">51 Point Walter Road Fremantle, 6160</p>
+                    <p>(08) 9421 4483</p>
+                </div>
+                <div class="col-md-2 footerlinks">
+                    <p>NAVIGATE</p>
+                    <ul><a href="#">Home</a></ul>
+                    <ul><a href="#">About Us</a></ul>
+                    <ul><a href="#">Our Tours</a></ul>
+                </div><!-- row-->
+                <div class="col-md-2 footerlinks2">
+                    <ul><a href="#">FAQ</a></ul>
+                    <ul><a href="#">Contact Us</a></ul>
+                    <ul><a href="#">Book Now</a></ul>
+                </div><!-- row-->
+
+
+            </div><!-- container -->
+        </div><!-- container-fluid-->
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <p>©2021</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <p>Terms of Use</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <p>Privacy Policy</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <p>Sitemap</p>
+                </div>
+
             </div>
-            <div class="col-md-6 ">
-                <p>Terms and Conditions</p>
-  </div><!-- row-->
-        </div><!-- container -->
-    </div><!-- container-fluid-->
+        </div>
 
-</footer>
+    </footer>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
