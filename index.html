@@ -26,8 +26,8 @@
 
 <body>
 
-    <header class="container-fluid flipsidebg">
-        <nav class="navbar">
+    <header class="container-fluid header flipside-nav">
+        <nav class="navbar justify-content-center">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -35,43 +35,55 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><img src="images/Flipside%20Logo.png" alt="Flipside Logo" width="90"/></a>
+                    <!--<a class="navbar-brand" href="#"><img src="images/Flipside%20Logo.png" alt="Flipside Logo" width="90" /></a> -->
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#">HOME</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">OUR TOURS</a></li>
-                        <li><a href="#">GALLERY</a></li>
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="ourtours.html">Our Tours</a></li>
+                        <li><a href="#">Gallery</a></li>
                         <li><a href="#">FAQ</a></li>
-                        <li><a href="#">CONTACT US</a></li>
-                        <li><a href="#">BOOK NOW</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><button type="button" class="btn-nav">BOOK NOW</button></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <div class="container header-text">
-            <h1>Flipside Tours</h1>
-            <div class="col-md-6 headerpara">
-                <p>Welcome to Flipside, where we provide safe, fun, and unforgettable experiences that creates memories and smiles that last a lifetime
-                </p>
-            </div>
-            <div class="col-md-6">
-                <button type="button" class="btn-home1">LEARN MORE</button>
-                <button type="button" class="btn-home2">FIND THE TOUR FOR YOU</button>
-            </div>
-        </div> <!-- container -->
+        <div class="container-fluid flipsidebg">
+            <div class="container header-text">
+                <div class="container">
+                    <p class="preheader">WELCOME TO...</p>
+                    <h1>Flipside Tours</h1>
+                </div>
+                <div class="container headerpara">
+                    <div class="container">
+                        <p>Where we provide safe, fun, and unforgettable experiences that creates memories and smiles that last a lifetime
+                        </p>
+                    </div>
+                    <div class="container">
+                        <div class="col-md-2">
+                            <button type="button" class="btn-home1">LEARN MORE</button>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="ourtours.html" class="btn-home2" role="button">FIND OUT MORE</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- container -->
+        </div>
     </header>
 
     <section class="container-fluid whybg">
         <div class="row">
-            <div class="col-md-6 janeimage">
+            <div class="col-md-6 img-fluid janeimage">
                 <img src="images/Jane_Bree_Founder.png" alt="Jane Bree, Founder of Flipside Tours in Fremantle" width=400>
             </div>
             <div class="container col-md-3 whytext">
                 <h2 class="whyheader"> WHY FLIPSIDE </h2>
                 <p> Since our humble beginnings we’ve been leading tourists on tours of arty neighbourhoods, street art, food and ghosts throughout Fremantle. We understand the complexities in our communities, work to find our place in it, and utilize our team’s diversity to continuously shape <span class=whyorange>the tours to best tell the story of Fremantle.</span></p>
-                <button type="button" class="btn-orange">FIND THE TOUR FOR YOU</button>
+                <a href="ourtours.html" class="btn-orange" role="button">FIND THE TOUR FOR YOU</a>
             </div><!-- container-->
         </div>
     </section>
@@ -81,23 +93,25 @@
             <h3 class="tourheading">OUR TOURS</h3>
         </div>
         <div class="container ghostly">
-            <div class="container col-sm-3">
-                <img src=images/prisontour.jpg alt="Prison Tour" height=200>
+            <div class="container col-sm-2">
+                <img class="tourimg" src=images/prisontour.jpg alt="Prison Tour" height=200>
             </div>
-            <div class="container col-sm-6 ghostly-text">
+            <div class="container col-sm-7 ghostly-text">
                 <h3 class="ghostlytitle"> GHOSTLY TOURS </h3>
                 <p> An immersive, hands-on paranormal ghostly tour, where you’ll hunt for real ghosts in known haunted places around Fremantle.</p>
-                <button type="button" class="btn btn-tours">FIND OUT MORE</button>
+                <a href="ghostlytours.html" class="btn btn-tours" role="button">FIND OUT MORE</a>
             </div>
             <div class="container col-sm-3 ghostly-price">
                 <p> $59</p>
             </div>
         </div><!-- ghostly tours-->
+
+
         <div class="container evening">
-            <div class="container col-sm-3 evening-image">
-                <img src=images/eveningfood.jpg alt="Prison Tour" height=200>
+            <div class="container col-sm-2 evening-image">
+                <img class="tourimg" src=images/eveningfood.jpg alt="Prison Tour" height=200>
             </div>
-            <div class="container col-sm-6 evening-text">
+            <div class="container col-sm-7 evening-text">
                 <h3 class="eveningtitle"> EVENING FOOD </h3>
                 <p> An exciting stroll through our beautiful city filled with delicious food and drinks that locals crave for in the late afternoon/early evening.</p>
                 <button type="button" class="btn btn-tours">FIND OUT MORE</button>
@@ -106,11 +120,13 @@
                 <p> $79</p>
             </div>
         </div><!-- evening food-->
+
+
         <div class="container market">
-            <div class="container col-sm-3">
-                <img src=images/prisontour.jpg alt="Prison Tour" height=200>
+            <div class="container col-sm-2">
+                <img class="tourimg" src=images/prisontour.jpg alt="Prison Tour" height=200>
             </div>
-            <div class="container col-sm-6 market-text">
+            <div class="container col-sm-7 market-text">
                 <h3 class="markettitle"> MARKET TOUR </h3>
                 <p> Explore and support the local traders and musicians down at the markets and immerse yourself in the culture of Fremantle. </p>
                 <button type="button" class="btn btn-tours">FIND OUT MORE</button>
@@ -118,34 +134,49 @@
             <div class="container col-sm-3 market-price">
                 <p> $35</p>
             </div>
-        </div><!-- ghostly tours-->
+        </div><!-- markettours-->
     </section>
 
-    <section class="container-fluid ">
+
+    <div class="container-fluid">
         <div class="container">
-            <h5 class="explore1"> LIKE WHAT YOU SEE? BOOK NOW TO GET STARTED ON YOUR OWN </h5>
-            <h4 class="explore2">FREMANTLE FLIPSIDE JOURNEY</h4>
-            <div class="col-md-4">
+            <p class="explore1"> LIKE WHAT YOU SEE? BOOK NOW TO GET STARTED ON YOUR OWN </p>
+            <p class="explore2">FREMANTLE FLIPSIDE JOURNEY</p>
+            <div class="col-md-6 exploreimgs">
                 <img src=images/explore1.png alt="Prison Tour" height="500">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <img src=images/explore2.jpg alt="Prison Tour" height="500">
             </div>
-            <button type="button" class="btn btn-outline-danger">BOOK NOW</button>
+            <button type="button" class="btn btn-explore">BOOK NOW</button>
         </div><!-- container-->
-    </section>
+    </div>
 
-    <section class="container-fluid instasec">
+    <div class="container-fluid instasec">
         <div class="container instatop">
             <div class="col-md-2">
                 <img src="images/instalogo.png" alt="Instagram Logo" height="100">
             </div>
             <div class="container instatext">
-                <h5>@FLIPSIDE</h5>
+                <a class="instalink" href="http://instagram.com">@FLIPSIDE</a>
                 <p>Find us on Instagram and get lost in the many photos available of the tours.</p>
             </div>
+            <div class="row instafeed">
+                <div class="column">
+                    <img src="images/instaimg1.jpg" alt="Snow" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="images/instaimg2.jpg" alt="Snow" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="images/instaimg3.jpg" alt="Snow" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="images/instaimg4.jpg" alt="Snow" style="width:100%">
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
 
 
     <footer class="container-fluid footer">
@@ -162,37 +193,43 @@
                 </div>
                 <div class="col-md-2 footerlinks">
                     <p>NAVIGATE</p>
-                    <ul><a href="#">Home</a></ul>
-                    <ul><a href="#">About Us</a></ul>
-                    <ul><a href="#">Our Tours</a></ul>
-                </div><!-- row-->
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Tours</a></li>
+                    </ul><!-- row-->
+                </div>
                 <div class="col-md-2 footerlinks2">
-                    <ul><a href="#">FAQ</a></ul>
-                    <ul><a href="#">Contact Us</a></ul>
-                    <ul><a href="#">Book Now</a></ul>
-                </div><!-- row-->
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Book Now</a></li>
+                    </ul><!-- row-->
+                </div>
+                <div class="col-md-2 footerlinks">
+                    <p>SOCIAL MEDIA</p>
+                    <div class="row">
+                        <div class="container footerimages">
+                            <img src=images/facebookfooter.png> <img src=images/twitterfooter.png> <img src=images/instafooter.png> </div> </div> </div> </div> <!-- container -->
+                        </div><!-- container-fluid-->
+                        <hr>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 text-center">
+                                    <p>©2021</p>
+                                </div>
+                                <div class="col-md-3 text-center">
+                                    <p>Terms of Use</p>
+                                </div>
+                                <div class="col-md-3 text-center">
+                                    <p>Privacy Policy</p>
+                                </div>
+                                <div class="col-md-3 text-center">
+                                    <p>Sitemap</p>
+                                </div>
 
-
-            </div><!-- container -->
-        </div><!-- container-fluid-->
-        <hr>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 text-center">
-                    <p>©2021</p>
-                </div>
-                <div class="col-md-3 text-center">
-                    <p>Terms of Use</p>
-                </div>
-                <div class="col-md-3 text-center">
-                    <p>Privacy Policy</p>
-                </div>
-                <div class="col-md-3 text-center">
-                    <p>Sitemap</p>
-                </div>
-
-            </div>
-        </div>
+                            </div>
+                        </div>
 
     </footer>
 
