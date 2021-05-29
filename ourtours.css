@@ -1,0 +1,251 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 1.5em;
+    font-family: 'Azo Sans Light';
+}
+
+
+.navbar {
+    font-size: 0.875em;
+    margin-bottom: 0%;
+    padding-right: 15%;
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-bottom: 3%;
+    background-color: #EA8428;
+    border-radius: 0;
+}
+
+.navbar-nav li a:hover {
+    background-color: transparent;
+    font-family: 'Azo Sans';
+    font-weight: bolder;
+}
+
+.navbar-brand {
+    font-size: 2.5em;
+    font-weight: bolder;
+    letter-spacing: -3px;
+
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #464646;
+    font-weight: bolder;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.btn-nav {
+    border-radius: 0;
+    background-color: white;
+    border-color: #D15C0F;
+    color: #BF5F06;
+    font-family: 'Azo Sans';
+    font-weight: bolder;
+    border: 2px solid;
+    margin: 11px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.btn-ghostlyfind {
+    border-radius: 0;
+    background-color: #CF4F11;
+    border-color: #D55E0F !important;
+    color: white;
+    font-family: 'Azo Sans';
+    font-weight: 200;
+    border: 2px solid;
+    margin: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 1.2em;
+    margin-bottom: 4%;
+    width: 90%;
+    text-align: center;
+    display: block;
+}
+
+.btn-ghostlyfind:hover {
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: 'Azo Sans';
+    color: white;
+    background-color: #EA8428;
+}
+
+.btn-ghostlybook {
+    border-radius: 0;
+    background-color: white;
+    color: #D55E0F;
+    font-family: 'Azo Sans';
+    font-weight: 200;
+    border: 2px solid;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 1.2em;
+    margin-bottom: 10%;
+    width: 90%;
+    text-align: center;
+}
+
+.ourtours {
+    padding: 0%;
+    background-color: #EA8428;
+}
+
+.header-text h1 {
+    font-size: 9em;
+    font-family: 'TELONE';
+    text-align: left;
+    color: white;
+    font-weight: 100;
+    margin-bottom: 0%;
+    padding-left: 11%;
+}
+
+.header-text h2 {
+    font-size: 12em;
+    font-family: 'Freshline';
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    text-shadow: 0px 22px 0 #CD4E11;
+    margin-top: -42px;
+}
+
+.header-text p {
+    color: white;
+    width: 90%;
+    padding-left: 10%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.ghostly {
+    /*padding-left: 10%;*/
+    margin-left: 0%;
+}
+
+.ghostlyheading h3 {
+    font-size: 6.5em;
+    font-family: 'TELONE';
+    color: #cd4e11;
+    padding-top: 2%;
+    margin-left: 9%;
+    margin-top: 8%;
+    letter-spacing: 8px;
+}
+
+.ghostlyinfo {
+    margin-left: 10%;
+}
+
+.price {
+    font-size: 6em;
+    color: #CF4F11;
+    font-family: "Big Caslon";
+    margin-top: -42px;
+}
+
+.eveningheading h3 {
+    font-size: 6.5em;
+    font-family: 'TELONE';
+    color: #cd4e11;
+    padding-top: 2%;
+    margin-left: 9%;
+    margin-top: 8%;
+    letter-spacing: 8px;
+}
+
+.evening {
+    /*padding-left: 10%; */
+    margin-left: 0%;
+}
+
+
+.market {
+    /*padding-left: 10%; */
+    margin-bottom: 5%;
+    margin-left: 0%;
+}
+
+.footer {
+    background-color: #EA8428;
+}
+
+.footerleft {
+    padding-top: 3%;
+    padding-left: 6%;
+}
+
+.footerlinks a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.75em;
+}
+
+.footerlinks2 a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.75em;
+}
+
+.footer p {
+    color: white;
+    font-size: 0.75em;
+}
+
+.footerlinks li {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.footerlinks ul {
+    padding-left: 0%;
+}
+
+.footerlinks p {
+    font-size: 1.125em;
+    font-family: 'Azo Sans';
+    font-weight: bolder;
+    padding-top: 48px;
+}
+
+.footerlinks2 {
+    padding-top: 82px;
+    padding-left: 0%;
+}
+
+.footerlinks2 li {
+    list-style-type: none;
+}
+
+.footerlinks2 ul {
+    padding-left: 0%;
+}
+
+.footerimages img {
+    width: 4%;
+    padding-right: 1%;
+}
+
+.address {
+    padding-top: 15px;
+}
