@@ -1,3 +1,13 @@
+/*   
+Theme Name: Flipside Tours
+Theme URI: http://flipsidetours.com
+Description: A vibrant, modern styled website for tour sites.
+Author: Gabi Scardigno
+Author URI: http://flipsidetours.com
+Version: 1
+*/ 
+
+
 html,
 body {
     width: 100%;
@@ -8,19 +18,24 @@ body {
 }
 
 body {
-    font-size: 16px;
+    font-size: 1.5em;
     font-family: 'Azo Sans Light';
 }
 
 
 .navbar {
-    font-size: 0.875em;
-    margin-bottom: 0px;
-    padding-right: 15%;
-    padding-top: 3%;
-    padding-left: 15%;
-    padding-bottom: 3%;
-    background-color: #EA8428;
+    /* font-size: 0.875em; */
+    margin-bottom: 0%;
+    padding-right: 20%;
+    padding-top: 4%;
+    /* padding-left: 15%; */
+    padding-bottom: 4%;
+    background: transparent;
+
+}
+
+.navbar-nav li a {
+    color: black;
 }
 
 .navbar-nav li a:hover {
@@ -36,34 +51,67 @@ body {
 
 }
 
-.flipsidebg {
+.header {
+    height: 640px;
+    background-image: url(images/headerimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.flipside-nav {
     background-color: #EA8428;
+}
+
+.flipsidebg {
+    /* background-image: url(images/headerimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    height: 100%;
 }
 
 .flipsidebg h1 {
     text-align: center;
-    padding-left: 10%;
-    color: #ffff;
-    width: 341px;
-    /* give the H1 a width so that we wrap the text as per the design comp*/
-    font-size: 7.125em;
-    /* 114px font size in photoshop divided by 16px= 7.125*/
-    letter-spacing: -5px;
-    /* fix the letter-spacing*/
-    font-weight: 800;
-    /* make the text bold*/
-    line-height: 80%;
-    /* decrease the line height*/
-    margin-top: 100px;
-    /* the words are 140px away from the navbar in photoshop*/
-    text-align: right;
-    padding-bottom: 10%;
-    /* use a percentage so that we have a variable padding at the bottom – the children within the div should control the height of divs*/
+    /* padding-left: 18%; */
+    color: #ea8427;
+    /* width: 341px; */
+    font-size: 10em;
+    /* letter-spacing: -5px; */
+    font-weight: 400;
+    /* line-height: 80%; */
+    margin-top: 7%;
+    font-family: 'Freshline';
+    text-shadow: 0px -10px 0 #ffffff;
+
 
 }
 
+/*.flipsidebg h2 {
+    text-align: center;
+    padding-left: 52%;
+    color: #ffff;
+    width: 341px;
+    font-size: 7.125em;
+    letter-spacing: -5px;
+    font-weight: 400;
+    line-height: 80%;
+    margin-top: 8%;
+    text-align: right;
+    padding-bottom: 10%;
+    font-family: 'Freshline';
+    text-shadow: 0px 8px 0 #464646;
+} */
+
 .header-text {
     padding-bottom: 4%;
+}
+
+.preheader {
+    color: #eff9fe;
+    font-weight: bolder;
+    font-family: 'Azo Sans';
+    text-align: center;
+    font-size: 2em;
 }
 
 a {
@@ -83,13 +131,28 @@ a:hover {
     padding: 0px;
 }
 
+.btn-nav {
+    border-radius: 0;
+    background-color: transparent;
+    /* border-color: #D15C0F; */
+    color: #fffaf5;
+    font-family: 'Azo Sans';
+    font-weight: bolder;
+    border: 2px solid;
+    margin: 11px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-top: 6%;
+}
+
 .btn-home1 {
     border-radius: 0;
     background-color: white;
     border-color: #464646;
     color: #464646;
+    font-family: 'Azo Sans';
     font-weight: bolder;
-    border: 3px solid;
+    border: 2px solid;
     padding: 10px;
 }
 
@@ -98,9 +161,17 @@ a:hover {
     background-color: #D55E0F;
     border-color: white;
     color: white;
+    font-family: 'Azo Sans';
     font-weight: bolder;
-    border: 3px solid;
+    border: 2px solid;
     padding: 10px;
+    display: block;
+    width: 57%;
+}
+
+.btn-home2:hover {
+    text-decoration: none;
+
 }
 
 .btn-orange {
@@ -111,9 +182,14 @@ a:hover {
     font-family: 'Azo Sans';
     font-weight: bolder;
     border: 3px solid;
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 3%;
+    padding-left: 14%;
+    padding-right: 14%;
+    display: block;
+}
+
+.btn-orange:hover {
+    text-decoration: none;
 }
 
 .btn-tours {
@@ -131,21 +207,24 @@ a:hover {
     color: #FFCFA3;
 }
 
-.headerpara {
-    color: white;
-    background-color: #464646;
-    width: 300px;
-    padding-left: 4%;
-    padding-right: 4%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+.headerpara p {
+    color: #652e2e;
+    /* background-color: #464646; */
+    /* width: 300px; */
+    padding-left: 5%;
+    padding-right: 2%;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    /* padding-top: 200px; */
+    /* padding-left: 50px; */
 }
 
 .whybg {
-    background-image: url(images/why-bg.jpg);
+    /*background-image: url(images/why-bg.jpg);
     background-size: cover;
-    padding-top: 200px;
-    padding-left: 50px;
+    background-repeat: no-repeat; */
+    padding-top: 8%;
+    padding-left: 10%;
 }
 
 .whyorange {
@@ -157,7 +236,11 @@ a:hover {
 .whyheader {
     font-family: "TELONE";
     color: #D55E0F;
-    font-size: 71px;
+    font-size: 3.5em;
+}
+
+.whytext p {
+    width: 350px;
 }
 
 /* .whytext {
@@ -165,8 +248,10 @@ a:hover {
 } */
 
 .janeimage {
-    padding-left: 80px;
+    padding-left: 8%;
+    padding-right: 17%;
 }
+
 
 .toursbg {
     background-image: url(images/toursbg.jpg);
@@ -176,10 +261,15 @@ a:hover {
 
 .tourheading {
     font-family: 'TELONE';
-    font-size: 50px;
+    font-size: 3.125em;
     color: white;
-    padding-top: 137px;
-    padding-bottom: 10px;
+    padding-top: 13%;
+    padding-bottom: 1%;
+}
+
+.tourimg {
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 
 .ghostly {
@@ -189,16 +279,18 @@ a:hover {
 
 .ghostlytitle {
     font-family: 'TELONE';
-    font-size: 42px;
+    font-size: 2.625em;
     color: white;
 }
 
 .ghostly-text {
     color: white;
+    padding-left: 5%;
+    padding-top: 1%;
 }
 
 .ghostly-price {
-    font-size: 118px;
+    font-size: 7.375em;
     color: white;
     font-family: 'Big Caslon';
 }
@@ -212,16 +304,18 @@ a:hover {
 
 .eveningtitle {
     font-family: 'TELONE';
-    font-size: 42px;
+    font-size: 2.625em;
     color: white;
 }
 
 .evening-text {
     color: white;
+    padding-left: 5%;
+    padding-top: 1%;
 }
 
 .evening-price {
-    font-size: 118px;
+    font-size: 7.375em;
     color: white;
     font-family: 'Big Caslon';
 }
@@ -235,33 +329,65 @@ a:hover {
 
 .markettitle {
     font-family: 'TELONE';
-    font-size: 42px;
+    font-size: 2.625em;
     color: white;
+
 }
 
 .market-text {
     color: white;
+    padding-left: 5%;
+    padding-top: 1%;
 }
 
 .market-price {
-    font-size: 118px;
+    font-size: 7.375em;
     color: white;
     font-family: 'Big Caslon';
 }
 
 .explore1 {
     color: #D55E0F;
-    transform: rotate(-4deg);
+    transform: rotate(-2deg);
+    padding-top: 61px;
+    font-size: 1.625em;
+    margin-bottom: 0px;
+    padding-left: 14%;
 }
 
 .explore2 {
     font-family: 'TELONE';
     color: #D55E0F;
-    transform: rotate(-4deg);
+    transform: rotate(-2deg);
+    font-size: 3.313em;
+    padding-left: 10%;
+}
+
+.btn-explore {
+    border-radius: 0;
+    background-color: #D55E0F;
+    border-color: #ab541a !important;
+    color: white;
+    font-family: 'Azo Sans';
+    font-weight: bolder;
+    border: 3px solid;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.exploreimgs {
+    padding-left: 15%;
 }
 
 .instasec {
-    height: 400px;
+    height: 520px;
+}
+
+.instatext a:hover {
+    text-decoration: none;
+    color: orange;
 }
 
 .instatop {
@@ -270,7 +396,7 @@ a:hover {
 
 .instatext h5 {
     color: #D55E0F;
-    font-size: 45px;
+    font-size: 2.813em;
     font-family: 'Azo Sans';
     font-weight: bolder;
     margin-bottom: 5px;
@@ -278,7 +404,18 @@ a:hover {
 
 .instatext p {
     color: #676767;
-    font-size: 12px;
+    font-size: 0.75em;
+}
+
+.instalink {
+    color: #D55E0F;
+    font-size: 3em;
+    font-family: 'Azo Sans';
+    font-weight: bolder;
+}
+
+.instafeed {
+    padding-top: 20px;
 }
 
 .footer {
@@ -286,38 +423,243 @@ a:hover {
 }
 
 .footerleft {
-    padding-top: 30px;
+    padding-top: 3%;
+    padding-left: 6%;
 }
 
 .footerlinks a {
     color: white;
     text-decoration: none;
+    font-size: 0.75em;
 }
 
 .footerlinks2 a {
     color: white;
     text-decoration: none;
+    font-size: 0.75em;
 }
 
 .footer p {
     color: white;
+    font-size: 0.75em;
+}
+
+.footerlinks li {
+    padding-left: 0px;
+    list-style-type: none;
 }
 
 .footerlinks ul {
-    padding-left: 0px;
+    padding-left: 0%;
 }
 
 .footerlinks p {
-    font-size: 20px;
+    font-size: 1.125em;
     font-family: 'Azo Sans';
     font-weight: bolder;
-    padding-top: 22px;
+    padding-top: 48px;
 }
 
 .footerlinks2 {
-    padding-top: 71px;
+    padding-top: 82px;
+    padding-left: 0%;
+}
+
+.footerlinks2 li {
+    list-style-type: none;
+}
+
+.footerlinks2 ul {
+    padding-left: 0%;
 }
 
 .address {
     padding-top: 15px;
+}
+
+.footerimages img {
+    width: 4%;
+    padding-right: 1%;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 23.33%;
+    padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Media Queries */
+@media only screen and (max-width : 1200px) {
+    .btn-orange {
+        padding-left: 11%;
+        padding-right: 11%;
+    }
+
+}
+
+@media only screen and (max-width : 992px) {
+    .janeimage {
+        padding-left: 0%;
+    }
+
+    .btn-orange {
+        width: 120%;
+    }
+
+    .ghostly-text {
+        padding-left: 8%;
+    }
+
+    .evening-text {
+        padding-left: 8%;
+    }
+
+    .market-text {
+        padding-left: 8%;
+    }
+
+    .explore1 {
+        /*padding-left: 11%; */
+        text-align: center;
+        padding-top: 10%;
+    }
+
+    .explore2 {
+        /*padding-left: 11%; */
+        text-align: center;
+    }
+
+    .instasec {
+        padding-left: 4%;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .navbar {
+        padding-right: 10%;
+    }
+
+    .preheader {
+        color: #789fbb;
+    }
+
+    .btn-home2 {
+        width: 95%;
+    }
+
+    .whybg {
+        padding-left: 25%;
+    }
+
+    .btn-orange {
+        width: 55%;
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .whytext p {
+        width: 70%;
+        text-align: center;
+        margin-left: -8%;
+    }
+
+    .tourheading {
+        padding-top: 23%;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    .flipsidebg h1 {
+        text-align: center;
+        color: #ea8427;
+        font-size: 8em;
+        letter-spacing: -5px;
+        font-weight: 400;
+        line-height: 133%;
+        margin-top: 7%;
+        font-family: 'Freshline';
+        text-shadow: 0px 10px 0 #ffffff;
+    }
+
+    .janeimage {
+        margin-left: -9%;
+    }
+
+    .whybg {
+        padding-left: 19%;
+    }
+
+    .whytext p {
+        width: 90%;
+        padding-left: 2%;
+    }
+
+    .btn-orange {
+        margin-left: 9%;
+        padding-left: 4%;
+        padding-right: 4%;
+        width: 60%;
+    }
+
+    .whyheader {
+        font-size: 3em;
+        margin-left: -5%;
+    }
+
+    .tourheading {
+        padding-top: 38%;
+    }
+
+    .tourimg {
+        padding-top: 8%;
+        padding-bottom: 4%;
+        height: 410px;
+        padding-left: 6%;
+    }
+
+    .ghostlyprice {
+        font-size: 5.375em;
+        color: white;
+        font-family: 'Big Caslon';
+        padding-left: 55%;
+        margin-top: -18%;
+    }
+
+    .evening-price {
+        font-size: 5.375em;
+        color: white;
+        font-family: 'Big Caslon';
+        padding-left: 55%;
+        margin-top: -18%;
+    }
+
+}
+
+@media only screen and (max-width : 360px) {
+    .flipsidebg h1 {
+        font-size: 6em;
+    }
+
+    .preheader {
+        font-size: 1.5em;
+    }
+
+    .janeimage {
+        margin-left: -7%;
+        width: 300px;
+    }
+
+    .tourimg {
+        height: 330px;
+        padding-left: 0%;
+    }
 }
