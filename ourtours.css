@@ -17,23 +17,31 @@ body {
     font-size: 0.875em;
     margin-bottom: 0%;
     padding-right: 15%;
-    padding-top: 3%;
+    padding-top: 4%;
     padding-left: 15%;
     padding-bottom: 3%;
-    background-color: #EA8428;
+    background-color: transparent;
     border-radius: 0;
+    width: 95%;
+
+}
+
+.navbar-nav li a {
+    color: white;
 }
 
 .navbar-nav li a:hover {
     background-color: transparent;
     font-family: 'Azo Sans';
-    font-weight: bolder;
+    font-weight: bold;
+    color: white;
 }
 
 .navbar-brand {
-    font-size: 2.5em;
-    font-weight: bolder;
-    letter-spacing: -3px;
+    float: left;
+    height: 50px;
+    padding-top: 13%;
+    padding-left: 150%;
 
 }
 
@@ -65,7 +73,7 @@ a:hover {
 
 .btn-ghostlyfind {
     border-radius: 0;
-    background-color: #CF4F11;
+    background-color: #ea8427;
     border-color: #D55E0F !important;
     color: white;
     font-family: 'Azo Sans';
@@ -144,9 +152,9 @@ a:hover {
 }
 
 .ghostlyheading h3 {
-    font-size: 6.5em;
+    font-size: 4.5em;
     font-family: 'TELONE';
-    color: #cd4e11;
+    color: #ea8427;
     padding-top: 2%;
     margin-left: 9%;
     margin-top: 8%;
@@ -159,15 +167,15 @@ a:hover {
 
 .price {
     font-size: 6em;
-    color: #CF4F11;
+    color: #ea8427;
     font-family: "Big Caslon";
     margin-top: -42px;
 }
 
 .eveningheading h3 {
-    font-size: 6.5em;
+    font-size: 4.5em;
     font-family: 'TELONE';
-    color: #cd4e11;
+    color: #ea8427;
     padding-top: 2%;
     margin-left: 9%;
     margin-top: 8%;
