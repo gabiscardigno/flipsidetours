@@ -17,7 +17,6 @@ html {
     margin-top: 0px !important;
 }
 
-
 body {
     width: 100%;
     height: 100%;
@@ -46,7 +45,7 @@ body {
 }
 
 .navbar-nav li a {
-    color: black;
+    color: black !important;
 }
 
 .navbar-nav li a:hover {
@@ -114,7 +113,6 @@ body {
 
 .header-text {
     padding-bottom: 4%;
-    padding-left: 10%;
 }
 
 .preheader {
@@ -168,6 +166,8 @@ a:hover {
     padding: 10px;
     width: 53%;
     margin-left: 15%;
+    display: block;
+    text-align: center;
 }
 
 .btn-home2 {
@@ -203,6 +203,7 @@ a:hover {
     padding-left: 14%;
     padding-right: 14%;
     display: block;
+    text-align: center;
 }
 
 .btn-orange:hover {
@@ -218,15 +219,16 @@ a:hover {
     border: 3px solid #D55E0F;
     padding-left: 30px;
     padding-right: 30px;
+    margin-bottom: 5%;
 }
 
 .btn-tours:hover {
     color: #FFCFA3;
 }
 
-.headerpara p {
+.headerinfo {
     color: #203744;
-    padding-top: 2%;
+    /*padding-top: 2%;*/
     text-align: left;
     margin-right: 30%;
     margin-top: 10%;
@@ -253,19 +255,19 @@ a:hover {
     font-size: 3.5em;
 }
 
-.whytext p {
+.why {
     width: 350px;
 }
-
-/* .whytext {
-    padding-top: 50px;
-} */
 
 .janeimage {
     padding-left: 8%;
     padding-right: 17%;
 }
 
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
 
 .toursbg {
     background-image: url(images/toursbg.jpg);
@@ -277,8 +279,10 @@ a:hover {
     font-family: 'TELONE';
     font-size: 3.125em;
     color: white;
-    padding-top: 13%;
+    padding-top: 8%;
     padding-bottom: 1%;
+    text-align: right;
+    margin-top: 5%;
 }
 
 .tourimg {
@@ -377,6 +381,14 @@ a:hover {
     padding-left: 10%;
 }
 
+.ferriswheel {
+    width: 40%;
+}
+
+.graffiti {
+    width: 40%;
+}
+
 .btn-explore {
     border-radius: 0;
     background-color: #ffffff;
@@ -394,16 +406,17 @@ a:hover {
 }
 
 .exploreimgs {
-    padding-left: 15%;
+    padding-left: 17%;
     padding-top: 3%;
 }
 
-.exploreimg1 {
-    width: 37%;
-}
+/*.exploreimg1 {
+    height: 500px;
+} */
 
 .exploreimg2 {
     margin-top: -2%;
+    /*height: 500px; */
 }
 
 .instasec {
@@ -428,7 +441,7 @@ a:hover {
     margin-bottom: 5px;
 }
 
-.instatext p {
+.instasub {
     color: #676767;
     font-size: 0.75em;
 }
@@ -438,6 +451,11 @@ a:hover {
     font-size: 3em;
     font-family: 'Azo Sans';
     font-weight: bolder;
+}
+
+.instalink a:hover {
+    text-decoration: none;
+    color: black;
 }
 
 .instafeed {
@@ -522,170 +540,704 @@ a:hover {
     display: table;
 }
 
-/* Media Queries */
-@media only screen and (max-width : 1200px) {
-    .btn-orange {
-        padding-left: 11%;
-        padding-right: 11%;
-    }
+/*OUR TOURS CSS*/
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 1.5em;
+    font-family: 'Azo Sans Light';
+}
+
+
+.navbar {
+    font-size: 0.875em;
+    margin-bottom: 0%;
+    padding-right: 15%;
+    padding-top: 4%;
+    padding-left: 15%;
+    padding-bottom: 3%;
+    background-color: transparent;
+    border-radius: 0;
+    width: 95%;
 
 }
 
-@media only screen and (max-width : 992px) {
-    .janeimage {
-        padding-left: 0%;
-    }
-
-    .btn-orange {
-        width: 120%;
-    }
-
-    .ghostly-text {
-        padding-left: 8%;
-    }
-
-    .evening-text {
-        padding-left: 8%;
-    }
-
-    .market-text {
-        padding-left: 8%;
-    }
-
-    .explore1 {
-        /*padding-left: 11%; */
-        text-align: center;
-        padding-top: 10%;
-    }
-
-    .explore2 {
-        /*padding-left: 11%; */
-        text-align: center;
-    }
-
-    .instasec {
-        padding-left: 4%;
-    }
+.navbar-nav li a {
+    color: white;
 }
 
-@media only screen and (max-width : 768px) {
-    .navbar {
-        padding-right: 10%;
-    }
-
-    .preheader {
-        color: #789fbb;
-    }
-
-    .btn-home2 {
-        width: 95%;
-    }
-
-    .whybg {
-        padding-left: 25%;
-    }
-
-    .btn-orange {
-        width: 55%;
-        text-align: center;
-        padding-top: 2%;
-        padding-bottom: 2%;
-    }
-
-    .whytext p {
-        width: 70%;
-        text-align: center;
-        margin-left: -8%;
-    }
-
-    .tourheading {
-        padding-top: 23%;
-    }
+.navbar-nav li a:hover {
+    background-color: transparent;
+    font-family: 'Azo Sans';
+    font-weight: bold;
+    color: white;
 }
 
-@media only screen and (max-width : 480px) {
-    .flipsidebg h1 {
-        text-align: center;
-        color: #ea8427;
-        font-size: 8em;
-        letter-spacing: -5px;
-        font-weight: 400;
-        line-height: 133%;
-        margin-top: 7%;
-        font-family: 'Freshline';
-        text-shadow: 0px 10px 0 #ffffff;
-    }
-
-    .janeimage {
-        margin-left: -9%;
-    }
-
-    .whybg {
-        padding-left: 19%;
-    }
-
-    .whytext p {
-        width: 90%;
-        padding-left: 2%;
-    }
-
-    .btn-orange {
-        margin-left: 9%;
-        padding-left: 4%;
-        padding-right: 4%;
-        width: 60%;
-    }
-
-    .whyheader {
-        font-size: 3em;
-        margin-left: -5%;
-    }
-
-    .tourheading {
-        padding-top: 38%;
-    }
-
-    .tourimg {
-        padding-top: 8%;
-        padding-bottom: 4%;
-        height: 410px;
-        padding-left: 6%;
-    }
-
-    .ghostlyprice {
-        font-size: 5.375em;
-        color: white;
-        font-family: 'Big Caslon';
-        padding-left: 55%;
-        margin-top: -18%;
-    }
-
-    .evening-price {
-        font-size: 5.375em;
-        color: white;
-        font-family: 'Big Caslon';
-        padding-left: 55%;
-        margin-top: -18%;
-    }
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding-top: 13%;
+    padding-left: 150%;
 
 }
 
-@media only screen and (max-width : 360px) {
-    .flipsidebg h1 {
-        font-size: 6em;
-    }
+a {
+    color: white;
+}
 
-    .preheader {
-        font-size: 1.5em;
-    }
+a:hover {
+    color: #464646;
+    font-weight: bolder;
+}
 
-    .janeimage {
-        margin-left: -7%;
-        width: 300px;
-    }
+.navbar-toggle .icon-bar {
+    background-color: white;
+}
 
-    .tourimg {
-        height: 330px;
-        padding-left: 0%;
-    }
+.btn-nav {
+    border-radius: 0;
+    background-color: white;
+    border-color: #D15C0F;
+    color: #BF5F06;
+    font-family: 'Azo Sans';
+    font-weight: bolder;
+    border: 2px solid;
+    margin: 11px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.btn-ghostlyfind {
+    border-radius: 0;
+    background-color: #ea8427;
+    border-color: #D55E0F !important;
+    color: white;
+    font-family: 'Azo Sans';
+    font-weight: 200;
+    border: 2px solid;
+    margin: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 1.2em;
+    margin-bottom: 4%;
+    width: 90%;
+    text-align: center;
+    display: block;
+}
+
+.btn-ghostlyfind:hover {
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: 'Azo Sans';
+    color: white;
+    background-color: #EA8428;
+}
+
+.btn-ghostlybook {
+    border-radius: 0;
+    background-color: white;
+    color: #D55E0F;
+    font-family: 'Azo Sans';
+    font-weight: 200;
+    border: 2px solid;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 1.2em;
+    margin-bottom: 10%;
+    width: 90%;
+    text-align: center;
+    display: block;
+}
+
+.ourtours {
+    padding: 0%;
+    background-color: #EA8428;
+}
+
+.ourheader-text h1 {
+    font-size: 9em;
+    font-family: 'TELONE';
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    margin-bottom: 0%;
+}
+
+.ourheader-text h2 {
+    font-size: 12em;
+    font-family: 'Freshline';
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    text-shadow: 0px 22px 0 #CD4E11;
+    margin-top: -20px;
+}
+
+.ourheader-text p {
+    color: white;
+    width: 90%;
+    padding-left: 10%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.toursghostly {
+    padding-left: 0%;
+    margin-left: 2%;
+    width: 95%;
+}
+
+.ghostlyheading h3 {
+    font-size: 5em;
+    font-family: 'TELONE';
+    color: #ea8427;
+    padding-top: 2%;
+    margin-left: 8%;
+    margin-top: 8%;
+    letter-spacing: 8px;
+}
+
+.ghostlyinfo {
+    margin-left: 10%;
+    width: 30%;
+}
+
+.price {
+    font-size: 6em;
+    color: #ea8427;
+    font-family: "Big Caslon";
+    margin-top: -42px;
+}
+
+.eveningheading h3 {
+    font-size: 5em;
+    font-family: 'TELONE';
+    color: #ea8427;
+    padding-top: 2%;
+    margin-left: 8%;
+    margin-top: 8%;
+    letter-spacing: 8px;
+}
+
+.ourevening {
+    padding-left: 0%;
+    margin-left: 2%;
+    width: 95%;
+}
+
+
+.ourmarket {
+    padding-left: 0%;
+    margin-left: 2%;
+    width: 95%;
+    margin-bottom: 7%;
+}
+
+/* TOUR INFO PAGES*/
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 1.5em;
+    font-family: 'Azo Sans Light';
+}
+
+
+.navbar {
+    font-size: 0.875em;
+    margin-bottom: 0%;
+    padding-right: 15%;
+    padding-top: 4%;
+    padding-left: 15%;
+    padding-bottom: 3%;
+    background-color: transparent;
+    border-radius: 0;
+    width: 95%;
+
+}
+
+.navbar-nav li a {
+    color: white;
+}
+
+.navbar-nav li a:hover {
+    background-color: transparent;
+    font-family: 'Azo Sans';
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding-top: 13%;
+    padding-left: 150%;
+
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #464646;
+    font-weight: bolder;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.btn-nav {
+    border-radius: 0;
+    background-color: white;
+    border-color: #D15C0F;
+    color: #BF5F06;
+    font-family: 'Azo Sans';
+    font-weight: bolder;
+    border: 2px solid;
+    margin: 11px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.btn-ghostlyfind {
+    border-radius: 0;
+    background-color: #CF4F11;
+    border-color: #D55E0F !important;
+    color: white;
+    font-family: 'Azo Sans';
+    font-weight: bold;
+    border: 2px solid;
+    margin: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 1.2em;
+    margin-bottom: 4%;
+    width: 90%;
+    text-align: center;
+}
+
+.btn-book {
+    border-radius: 0;
+    background-color: #ea8427;
+    color: #ffffff;
+    font-family: 'Azo Sans';
+    font-weight: bold;
+    border: 2px solid;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 1.2em;
+    margin-bottom: 10%;
+    text-align: center;
+    display: block;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 125%;
+    width: 80%;
+}
+
+.btn-book:hover {
+    text-decoration: none;
+}
+
+.btn-bookend {
+    border-radius: 0;
+    background-color: white;
+    color: #ea8427;
+    font-family: 'Azo Sans';
+    font-weight: bold;
+    border: 2px solid;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1.2em;
+    text-align: center;
+    padding-left: 4%;
+    padding-right: 4%;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: -2%;
+}
+
+.btn-bookend:hover {
+    text-decoration: none;
+}
+
+
+.ourtours {
+    padding: 0%;
+    background-color: #EA8428;
+    padding-bottom: 4%;
+}
+
+.toursheader-text h1 {
+    font-size: 9em;
+    font-family: 'TELONE';
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    margin-bottom: 0%;
+}
+
+.toursheader-text h2 {
+    font-size: 12em;
+    font-family: 'Freshline';
+    color: white;
+    font-weight: 100;
+    margin-top: 7px;
+}
+
+.toursheader-text p {
+    color: white;
+    width: 100%;
+    padding-left: 39%;
+    text-align: center;
+    margin-bottom: 5%;
+    font-weight: 400;
+    font-family: 'Azo Sans';
+    padding-top: 3%;
+}
+
+.icons {
+    padding-left: 65%;
+    width: 134%;
+    padding-top: 1%;
+}
+
+.intro {
+    margin-top: 5%;
+    width: 75%;
+}
+
+.img1 {
+    border-top: 20px solid;
+    border-color: white;
+    padding: 0%;
+}
+
+.img2 {
+    padding: 0%;
+    border-top: 20px solid !important;
+    border-color: white !important;
+    border-left: 20px solid;
+    border-right: 20px solid;
+    margin-top: -2%;
+}
+
+.img3 {
+    border-top: 20px solid;
+    border-color: white;
+    padding: 0%;
+}
+
+.tourdetails {
+    margin-top: 2%;
+    width: 75%;
+    margin-bottom: 3%;
+}
+
+.text-bold {
+    color: #ea8427;
+    font-weight: bolder;
+    font-family: 'Azo Sans';
+    margin-bottom: 4%;
+}
+
+.schedule {
+    width: 90%;
+    justify-content: left;
+    margin-left: 0%;
+}
+
+.font-italic {
+    font-style: italic;
+    margin-top: 5%;
+    color: #ea8427;
+}
+
+h4 {
+    font-size: 4em;
+    font-family: 'TELONE';
+    color: #ea8427;
+    margin-top: 10%;
+}
+
+ul {
+    font-family: 'Azo Sans';
+    margin-top: 0;
+    margin-bottom: 10px;
+    /* font-weight: bolder;
+    color: #ea8427; */
+}
+
+.statsbg {
+    background-color: #EA8428;
+}
+
+.statstext {
+    font-size: 5em;
+    color: white;
+    width: 105%;
+    font-family: 'TELONE';
+    letter-spacing: 2px;
+    line-height: 80px;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 15%;
+}
+
+.statsnumber {
+    color: white;
+    font-size: 16em;
+    font-family: 'DIN Alternate';
+    margin-bottom: -10%;
+    padding-left: 20%;
+    margin-top: -1%;
+}
+
+.statsimg {
+    padding-left: 20%;
+}
+
+.whohave {
+    color: white;
+    font-size: 1.45em;
+    padding-left: 20%;
+    font-weight: 500;
+    font-family: 'Azo Sans';
+    padding-top: 3%;
+}
+
+.reviews {
+    width: 75%;
+}
+
+.reviewname1 {
+    font-weight: bold;
+    font-family: 'Azo Sans';
+    padding-top: 12%;
+    font-size: 1.5em;
+    color: #3B3B3B;
+    margin-left: -55%;
+}
+
+.reviewname2 {
+    font-weight: bold;
+    font-family: 'Azo Sans';
+    padding-top: 12%;
+    font-size: 1.5em;
+    margin-bottom: 0%;
+    color: #3B3B3B;
+    margin-left: -55%;
+}
+
+.reviewone {
+    width: 104%;
+    margin-left: 0%;
+    padding-left: 0%;
+}
+
+.reviewtwo {
+    width: 104%;
+    margin-left: 0%;
+    padding-left: 0%;
+}
+
+.reviewtext {
+    margin-bottom: 3%;
+    width: 95%;
+    margin-left: 0%;
+    padding-left: 0%;
+}
+
+.stars {
+    padding-left: 0%;
+    margin-left: 0%;
+}
+
+.fa-star {
+    font-size: 1em;
+    color: #D6D6D6;
+    padding-bottom: 2%;
+}
+
+.fa-star:before {
+    font-size: 2.5em;
+}
+
+.checked {
+    color: #EA8428;
+}
+
+.hashtag {
+    font-weight: bolder;
+    font-family: 'Azo Sans';
+}
+
+.instasec {
+    height: 520px;
+}
+
+.instatext a:hover {
+    text-decoration: none;
+    color: orange;
+}
+
+.instatop {
+    margin-top: 30px;
+}
+
+.instatext h5 {
+    color: #D55E0F;
+    font-size: 2.813em;
+    font-family: 'Azo Sans';
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.instatext p {
+    color: #676767;
+    font-size: 0.75em;
+}
+
+.instalink {
+    color: #D55E0F;
+    font-size: 3em;
+    font-family: 'Azo Sans';
+    font-weight: bolder;
+}
+
+.instafeed {
+    padding-top: 20px;
+}
+
+.instaimages {
+    margin-top: 4%;
+}
+
+
+.booking {
+    padding-left: 15%;
+}
+
+.booktext1 {
+    font-size: 1.5em;
+    margin-bottom: 0%;
+    padding-left: 15%;
+    padding-top: 5%;
+}
+
+.booktext2 {
+    font-size: 4em;
+    color: #ea8427;
+    font-family: 'TELONE';
+    margin-top: -3%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+}
+
+.exclamation {
+    font-family: 'Verdana';
+    font-weight: bolder;
+}
+
+.terms {
+    width: 75%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.terms h2 {
+    font-size: 40px;
+    font-family: 'TELONE';
+    color: #ea8427;
+    letter-spacing: 2px;
+}
+
+.terms a {
+    color: #ea8427;
+}
+
+.termsfooter {
+    margin-bottom: 10px;
+}
+
+.termslink {
+    font-size: 0.75em;
+}
+
+.termslink:hover {
+    text-decoration: none;
+    color: white;
+    font-family: 'Azo Sans';
+    font-weight: 400;
+}
+
+.errorbg {
+    background-color: #ea8427;
+    text-align: center;
+}
+
+.errorbg h1 {
+    font-size: 5em;
+    color: white;
+    font-family: 'TELONE';
+    margin-bottom: -1%;
+    height: 100%;
+}
+
+.errorbg h2 {
+    font-size: 30px;
+    color: white;
+    font-family: Azo Sans;
+    font-weight: 400;
+}
+
+.errorbg p {
+    width: 90%;
+    align-content: center;
+    color: white;
+    padding-left: 10%;
+    font-family: 'Azo Sans';
+    font-weight: 100;
+    line-height: 25px;
+    margin-bottom: -1%;
+}
+
+.ferris {
+    width: 40%;
+    margin-bottom: 10%;
+}
+
+.btn-error {
+    border-radius: 0;
+    background-color: #CF4F11;
+    color: white;
+    font-family: 'Azo Sans';
+    font-weight: bolder;
+    border: 3px solid #D55E0F;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.tourdetails h3 {
+    font-family: 'TELONE';
+    color: darkorange;
+    font-size: 4em;
 }
