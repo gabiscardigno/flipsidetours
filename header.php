@@ -38,6 +38,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
     <link href="https://fonts.adobe.com/fonts/azo-sans" rel="stylesheet">
     <?php wp_head(); ?>
 
@@ -55,36 +56,38 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><img src="images/Flipside%20Logo.png" alt="Flipside Logo" width="70" /></a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#">HOME</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="ourtours.html">OUR TOURS</a></li>
-                        <li><a href="#">GALLERY</a></li>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">CONTACT US</a></li>
-                        <li><button type="button" class="btn-nav">BOOK NOW</button></li>
-                    </ul>
+  <?php wp_nav_menu(array(
+        'menu' => 'Top menu',
+        'items_wrap'=>'%3$s',
+        'container' => false,
+        'list_item_class' => "nav-item",
+        'link_class' => "nav-link",
+        )); ?>
+</ul>
                 </div>
             </div>
         </nav>
+        
+                  
 
+    
 
-        <div class="container-fluid flipsidebg">
-            <div class="container col-md-6 header-text">
+        <div class="container-fluid flipsidebg"<?php if ( get_field(' headerbackgroundimage ') ) { echo 'style="background: url(' . get_field(' headerbackgroundimage ') . ')"'; } ?>>
+            <div class="container col-md-6">
                 <!--<p class="preheader">WELCOME TO...</p>-->
-                <h1>Flipside Tours</h1>
+                <h1 class="header-text"><?php the_field('headertext');?></h1>
             </div>
             <div class="container col-md-6 headerpara">
-                <p>Explore Fremantle in the most unique way possible with Flipside Tours. Our unforgetable tour experiences guarantee you will leave with memories and smiles that will last a lifetime
-                </p>
+                <p class="headerinfo"><?php the_field('headerparagraph');?></p>
+
                 <div>
-                    <button type="button" class="btn-home1">LEARN MORE</button>
+                    <a href="http://206.189.45.97/~mesh21/sub/?page_id=1101" class="btn-home1" role="button">LEARN MORE ABOUT US</a>
                 </div>
                 <div>
-                    <a href="ourtours.html" class="btn-home2" role="button">FIND OUT MORE</a>
+                    <a href="http://206.189.45.97/~mesh21/sub/" class="btn-home2" role="button">FIND A TOUR</a>
                 </div>
             </div>
         </div>
