@@ -1,0 +1,400 @@
+/* Media Queries */
+@media only screen and (max-width : 1140px) {
+    .ghostlyinfo {
+        margin-left: 6%;
+        width: 30%;
+    }
+
+    .ghostlyheading h3 {
+        font-size: 5em;
+        font-family: 'TELONE';
+        color: #ea8427;
+        padding-top: 2%;
+        margin-left: 0%;
+        margin-top: 8%;
+        letter-spacing: 8px;
+    }
+
+    .eveningheading h3 {
+        font-size: 5em;
+        font-family: 'TELONE';
+        color: #ea8427;
+        padding-top: 2%;
+        /* margin-left: 8%; */
+        margin-top: 8%;
+        letter-spacing: 8px;
+    }
+}
+
+@media only screen and (max-width : 991px) {
+    .janeimage {
+        padding-left: 15%;
+        padding-right: 0%;
+        width: 600px;
+    }
+
+    .why {
+        width: 47%;
+        padding-left: 0%;
+        margin-left: 20%;
+        margin-right: 0%;
+    }
+
+    .tourheading {
+        font-family: 'TELONE';
+        font-size: 3.125em;
+        color: white;
+        padding-top: 8%;
+        padding-bottom: 1%;
+        text-align: right;
+        margin-top: 17%;
+    }
+
+    .ghostly {
+        border: 3px solid;
+        border-color: #F1B278;
+        width: 97%;
+    }
+
+    .evening {
+        border: 3px solid;
+        border-top: none;
+        border-color: #F1B278;
+        color: white;
+        width: 97%;
+    }
+
+    .market {
+        border: 3px solid;
+        border-top: none;
+        border-color: #F1B278;
+        color: white;
+        width: 97%;
+    }
+
+    .btn-tours {
+        border-radius: 0;
+        background-color: #CF4F11;
+        color: white;
+        font-family: 'Azo Sans';
+        font-weight: bolder;
+        border: 3px solid #D55E0F;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 5%;
+    }
+
+    .explore1 {
+        color: #D55E0F;
+        padding-top: 8%;
+        font-size: 1.3em;
+        margin-bottom: 0px;
+        text-align: center;
+        padding-left: 0%;
+    }
+
+    .explore2 {
+        font-family: 'TELONE';
+        color: #D55E0F;
+        font-size: 3.5em;
+        text-align: center;
+        line-height: 58px;
+        margin-top: 2%;
+        padding-left: 0%;
+    }
+
+    .exploreimgs {
+        padding-left: 0%;
+        padding-top: 3%;
+    }
+
+    .ferriswheel {
+        width: 100%;
+    }
+
+    .exploreimg2 {
+        margin-top: -2%;
+        display: none;
+    }
+
+    .flipsidebg h1 {
+        text-align: center;
+        color: #d55e0f;
+        font-size: 7EM;
+        font-weight: 400;
+        /* margin-top: 3%; */
+        font-family: 'Freshline';
+        text-shadow: 0px -10px 0 #ffffff;
+        /* padding-left: 15%; */
+        line-height: 120%;
+    }
+
+    .headerinfo {
+        color: #203744;
+        /* padding-top: 2%; */
+        text-align: left;
+        margin-right: 30%;
+        margin-top: -2%;
+        padding-left: 9%;
+        width: 62%;
+    }
+
+    .btn-home1 {
+        border-radius: 0;
+        background-color: white;
+        border-color: #464646;
+        color: #464646;
+        font-family: 'Azo Sans';
+        font-weight: bolder;
+        border: 2px solid;
+        padding: 10px;
+        width: 53%;
+        margin-left: 9%;
+        display: block;
+        text-align: center;
+    }
+
+    .btn-home2 {
+        border-radius: 0;
+        background-color: #D55E0F;
+        border-color: white;
+        color: white;
+        font-family: 'Azo Sans';
+        font-weight: bolder;
+        border: 2px solid;
+        padding: 10px;
+        display: block;
+        text-align: center;
+        margin-top: 1%;
+        margin-left: 9%;
+        width: 53%;
+    }
+
+    .footerleft {
+        padding-top: 3%;
+        padding-left: 11%;
+        text-align: center;
+    }
+
+    .footerlinks {
+        text-align: center;
+    }
+
+    .footerlinks2 {
+        text-align: center;
+    }
+
+    .toursheader-text p {
+        color: white;
+        width: 100%;
+        padding-left: 0%;
+        text-align: center;
+        margin-bottom: 5%;
+        font-weight: 400;
+        font-family: 'Azo Sans';
+        padding-top: 3%;
+    }
+
+    .btn-book {
+        border-radius: 0;
+        background-color: #ea8427;
+        color: #ffffff;
+        font-family: 'Azo Sans';
+        font-weight: bold;
+        border: 2px solid;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        font-size: 1.2em;
+        margin-bottom: 10%;
+        text-align: center;
+        display: block;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .toursheader-text h2 {
+        font-size: 12em;
+        font-family: 'Freshline';
+        color: white;
+        font-weight: 100;
+        margin-top: -25%;
+        margin-left: 39%;
+    }
+
+    .icons {
+        padding-left: 25%;
+        width: 144%;
+        padding-top: 1%;
+        margin-bottom: 1%;
+    }
+
+}
+
+@media only screen and (max-width : 500px) {
+    .toursheader-text h1 {
+        font-size: 5em;
+        font-family: 'TELONE';
+        text-align: center;
+        color: white;
+        font-weight: 100;
+        margin-bottom: 0%;
+    }
+
+    .toursheader-text p {
+        color: white;
+        width: 99%;
+        padding-left: 0%;
+        text-align: center;
+        margin-bottom: 5%;
+        font-weight: 400;
+        font-family: 'Azo Sans';
+        padding-top: 3%;
+    }
+
+    .btn-book {
+        border-radius: 0;
+        background-color: #ea8427;
+        color: #ffffff;
+        font-family: 'Azo Sans';
+        font-weight: bold;
+        border: 2px solid;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        font-size: 1.2em;
+        margin-bottom: 10%;
+        text-align: center;
+        display: block;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .icons {
+        padding-left: 8%;
+    }
+
+    .toursheader-text h2 {
+        font-size: 12em;
+        font-family: 'Freshline';
+        color: white;
+        font-weight: 100;
+        margin-top: -37%;
+        padding-left: 25%;
+    }
+
+    .text-bold {
+        color: #ea8427;
+        font-weight: bolder;
+        font-family: 'Azo Sans';
+        margin-bottom: 4%;
+        width: 120%;
+        margin-left: -10%;
+        text-align: center;
+    }
+
+    .schedule {
+        width: 95%;
+        justify-content: left;
+        margin-left: 0%;
+    }
+
+    .statstext {
+        font-size: 5em;
+        color: white;
+        width: 100%;
+        font-family: 'TELONE';
+        letter-spacing: 2px;
+        line-height: 80px;
+        padding-top: 15%;
+        padding-bottom: 0%;
+        padding-left: 0%;
+        text-align: center;
+    }
+
+    .statsnumber {
+        color: white;
+        font-size: 16em;
+        font-family: 'DIN Alternate';
+        margin-bottom: -10%;
+        padding-left: 0%;
+        text-align: center;
+        margin-top: -10%;
+    }
+
+    .statsimg {
+        padding-left: 6%;
+    }
+
+    .whohave {
+        color: white;
+        font-size: 1.45em;
+        padding-left: 0%;
+        font-weight: 500;
+        font-family: 'Azo Sans';
+        padding-top: 3%;
+        padding-bottom: 5%;
+        text-align: center;
+    }
+
+    .reviews h4 {
+        font-size: 4em;
+        font-family: 'TELONE';
+        color: #ea8427;
+        margin-top: 10%;
+        margin-bottom: 6%;
+    }
+
+    .instasec {
+        height: 400%;
+    }
+
+    .booktext1 {
+        font-size: 1.5em;
+        margin-bottom: 2%;
+        padding-left: 0%;
+        text-align: center;
+        padding-top: 5%;
+    }
+
+    .booktext2 {
+        font-size: 4em;
+        color: #ea8427;
+        font-family: 'TELONE';
+        margin-top: -3%;
+        padding-bottom: 0%;
+        padding-left: 0%;
+        text-align: center;
+    }
+
+    .booking {
+        padding-left: 0;
+    }
+
+    .btn-bookend {
+        border-radius: 0;
+        background-color: white;
+        color: #ea8427;
+        font-family: 'Azo Sans';
+        font-weight: bold;
+        border: 2px solid;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-size: 1.2em;
+        text-align: center;
+        padding-left: 4%;
+        padding-right: 4%;
+        display: inline-block;
+        margin-top: -1%;
+        margin-left: 17%;
+        margin-bottom: 15%;
+        width: 61%;
+    }
+
+    .footerleft {
+        padding-top: 9%;
+        padding-left: 0%;
+        text-align: center;
+    }
+
+}
